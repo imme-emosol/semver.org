@@ -17,3 +17,7 @@ This file contains the translation contributors who are willing to help translat
 ## Hebrew
 
 - [@ShlomoCode](https://github.com/ShlomoCode)
+
+## Italian
+
+- [@LorenzoAncora](https://github.com/LorenzoAncora)
