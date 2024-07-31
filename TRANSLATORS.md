@@ -21,3 +21,7 @@ This file contains the translation contributors who are willing to help translat
 ## Italian
 
 - [@LorenzoAncora](https://github.com/LorenzoAncora)
+
+## Serbian
+
+- [@rammba](https://github.com/rammba)
