@@ -271,7 +271,6 @@ No, ma usate il buon senso. Per esempio, una stringa di versione di 255 caratter
 è eccessiva. Inoltre, sistemi specifici possono imporre i loro limiti sulla 
 dimensione.
 
-
 ### "v1.2.3" è una versione semantica?
 
 No, "v1.2.3" non è una versione semantica. Tuttavia, prefissare una versione semantica
