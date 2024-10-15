@@ -4,6 +4,10 @@ CSS for semver.org
 @link http://mathiasbynens.be/
 */
 
+:root {
+  color-scheme: light dark;
+}
+
 h1,
 h2,
 ol,
@@ -22,8 +26,8 @@ body {
   margin: 0 auto;
   padding: 0 10%;
   max-width: 710px;
-  color: #000;
-  background-color: #fff;
+  color: light-dark(#000,#ccc);
+  background-color: light-dark(#ccc,#111);
 }
 
 pre {
@@ -60,11 +64,11 @@ html[dir="rtl"] h3 {
 }
 
 a {
-  color: #009;
+  color: light-dark(#009,#66f);
 }
 a:hover,
 a:focus {
-  color: #000;
+  color: light-dark(#000,#ccc);
 }
 ol,
 ul {
@@ -98,7 +102,7 @@ p {
 /* Nav */
 
 ul.nav {
-  background-color: #333;
+  background-color: light-dark(#333,#ccc);
   list-style-type: none;
   margin: 0;
   padding: 0.5em 0;
@@ -113,18 +117,18 @@ ul.nav li {
 }
 
 ul.nav li a {
-  color: white;
+  color: light-dark(#fff,#000);
 }
 
 ul.lang {
-  background-color: white;
+  background-color: light-dark(#fff,#000);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 ul.lang li a {
-  color: black;
+  color: light-dark(#000,#fff);
 }
 
 /* Anchor Link styling */
