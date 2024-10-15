@@ -1,4 +1,8 @@
-![logo](./assets/1000x600(light).jpg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/1000x600(dark).jpg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/1000x600(light).jpg">
+  <img alt="logo" src="./assets/1000x600(dark).jpg">
+</picture>
 
 This is the site at https://semver.org/ that describes the Semantic Versioning specification.
 
